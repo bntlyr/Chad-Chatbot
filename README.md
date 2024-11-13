@@ -1,40 +1,79 @@
-<<<<<<< HEAD
 # Chad-Chatbot
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+Chad-Chatbot is a mental health companion app designed to help users track their emotions, access resources, and engage with a supportive chatbot. The app includes features such as journaling, emotional check-ins, and a chatbot powered by Gemini API. It's built with a full-stack solution using Next.js, React, and Firebase for data storage and authentication. The app is also a Progressive Web App (PWA) that can be used across mobile and desktop devices.
+
+## Features
+
+- **Journal**: Users can maintain a personal journal to reflect on their emotions and thoughts.
+- **Chatbot**: The chatbot, powered by Gemini API, provides conversational support and helps users manage their mental health.
+- **Resources**: Access mental health resources such as articles, videos, and guides.
+- **Emotional Check-ins**: Users can track their emotions through daily check-ins and view emotional trends.
+
+## Technologies Used
+
+- **Frontend**: React.js
+- **Backend**: Next.js (full-stack)
+- **Chatbot**: Gemini API
+- **Database**: Firebase (for authentication and data storage)
+- **Progressive Web App (PWA)**: Exportable to mobile and desktop
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+Before you begin, ensure you have the following installed:
+
+- Node.js (>= 16.x)
+- npm or yarn (for package management)
+
+### Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/chad-chatbot.git
+   cd chad-chatbot
+Install dependencies:
+
+bash
+Copy code
+npm install
+# or
+yarn install
+Set up your Firebase project:
+
+Create a Firebase project in the Firebase Console.
+Add your Firebase configuration to the .env.local file (instructions provided in the Firebase docs).
+Run the development server:
+
+bash
+Copy code
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Features in Detail
+Journal: A simple, easy-to-use interface where users can log their daily thoughts and emotions.
+Chatbot: The chatbot, powered by the Gemini API, engages users in conversations to support mental health management.
+Resources: A curated selection of mental health resources accessible through the app.
+Emotional Check-ins: Daily mood tracking and visualization of emotional trends over time.
+Learn More
+To learn more about the technologies used in this app, check out the following resources:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js Documentation
+React Documentation
+Gemini API (for chatbot integration)
+Firebase Documentation
+Deployment
+To deploy this app, you can use platforms like Vercel or Netlify. Both support seamless deployments for Next.js apps and PWAs.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Contributing
+If you would like to contribute to the project, feel free to open issues or submit pull requests. We welcome improvements, bug fixes, and feature suggestions.
 
-## Learn More
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-To learn more about Next.js, take a look at the following resources:
+bash
+Copy code
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> 0890621 (Initial commit from Create Next App)
+You can replace `yourusername` with your actual GitHub username in the clone command.
